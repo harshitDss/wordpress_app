@@ -17,7 +17,7 @@ class ConfigBloc extends ChangeNotifier {
     bool hasData = false;
     _configs = await WordPressService().getConfigsFromAPI();
     if (_configs != null) {
-      debugPrint('Got dat from API');
+      debugPrint('Got data from API');
       _homeCategories = await WordPressService().fetchCategoriesByIDs(_configs!.homeCategories);
       hasData = true;
     }
