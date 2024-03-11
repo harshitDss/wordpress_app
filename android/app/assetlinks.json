@@ -1,0 +1,16 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.sparknewsindia.app",
+            "sha256_cert_fingerprints": [
+                "1A:41:8D:FF:45:54:38:90:85:18:EE:0E:02:B0:E9:84:37:F7:16:8C",
+                
+                "FC:B0:FE:2F:AA:33:2F:B9:F7:BB:8C:A6:50:95:66:5C:81:46:71:2B:37:07:A7:44:24:AA:91:AD:BF:13:FC:38"
+            ]
+        }
+    }
+]
